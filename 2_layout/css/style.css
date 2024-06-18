@@ -1,0 +1,91 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bol0d;
+    color: white;
+}
+
+.cf::before, .cf::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* side */
+#side {
+    float: left;
+    width: 300px;
+    height: 850px;
+    background-color: #ccc;
+}
+
+/* logo */
+#side .logo {
+    width: 300px;
+    height: 150px;
+    background-color: #999;
+}
+
+/* nav */
+#side .nav {
+    width: 300px;
+    height: 700px;
+    background-color: #888;
+}
+
+/* contents*/
+#content {
+    float: left;
+    width: 900px;
+    height: 850px;
+    background-color: #ddd;
+}
+
+#contents > div {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#contents > div.cont1 {background-color: #666;}
+#contents > div.cont2 {background-color: #555;}
+#contents > div.cont3 {background-color: #444;}
+
+/* banner */
+#banner {
+    width: 900px;
+    height: 450px;
+    background-color: #777;
+}
+
+/* footer */
+#footer > div {
+    float: left;
+}
+
+#footer  .foot1 {
+    width: 200px;
+    height: 100px;
+    background-color: #333;
+}
+
+#footer .foot2 {
+    width: 700px;
+    height: 50px;
+    background-color: #222;
+}
+
+#footer .foot3 {
+    width: 700px;
+    height: 50px;
+    background-color: #111;
+}
+
+
